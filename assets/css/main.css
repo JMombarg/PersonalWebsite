@@ -1720,6 +1720,16 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 		}
 
+		.image.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.round img {
+			border-radius: 100%;
+		}
+
 /* List */
 
 	ul {
