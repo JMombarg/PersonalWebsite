@@ -2267,7 +2267,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg.png");
+		background: #f7f7f7 url("images/cover_bg.png");
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
