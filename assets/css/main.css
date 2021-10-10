@@ -2177,6 +2177,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-attachment: fixed;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
