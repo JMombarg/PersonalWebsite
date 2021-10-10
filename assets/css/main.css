@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/cover_bg.png");
+		background-image: url("images/bg.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2267,7 +2267,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/cover_bg.png");
+		background: #f7f7f7 url("images/bg.png");
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2281,7 +2281,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/cover_bg.png");
+			background: url("images/bg.png");
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
