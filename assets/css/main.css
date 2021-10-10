@@ -2268,6 +2268,10 @@ input, select, textarea {
 	#main {
 		position: relative;
 		background: #f7f7f7 url("images/cover_bg.png");
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2278,7 +2282,10 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			background: url("images/cover_bg.png");
-			background-size: 100% 100%;
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
 			z-index: 0;
 			opacity: 0.1;
 		}
