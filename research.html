@@ -110,7 +110,7 @@
 									<h3>Constraining stellar evolution theory with asteroseismology of &gamma; Doradus stars using deep learning. Stellar masses, ages, and core-boundary mixing</h3>
 								</header>
 								<p>
-									In my latest paper, I improved upon the modelling method based on the buoyancy travel time by performing a more detailed modelling of the individual mode periods of each star.
+									In my third paper, I improved upon the modelling method based on the buoyancy travel time by performing a more detailed modelling of the individual mode periods of each star.
 									This way, we were able to measure mixing efficiencies at the convective core boundary (needed for accurate estimates of stellar ages). 
 									To do so, I implemented deep learning to solve the problem of high dimensionality, which has always been a showstopper in the modelling of a large sample of stars. 
 									I trained a neural network for Computing Pulsation Periods and Photospheric Observables (C-3PO) on a grid of 1D <a href="http://mesa.sourceforge.net/">MESA</a>
@@ -124,8 +124,31 @@
 									You can find more details <a href="https://ui.adsabs.harvard.edu/abs/2021A%26A...650A..58M/abstract">here</a>.
 								</p>
 							</section>
+
+							<section>
+								<header>
+									<h3>Predictions for gravity-mode periods and surface abundances in intermediate-mass dwarfs from shear mixing and radiative levitation</h3>
+								</header>
+								<p>
+									In the previous paper, we observed a dichotomy in the sample of 37 g-mode pulsators. For one group of stars we can model the observed mode periods accurately by assuming a constant value (both in radius and time) for the chemical 
+									mixing efficiency in the radiative envelope, while for another group, this value would have to be orders of magnitude lower than what is predicted from theory in order to reproduce a strong chemical gradient near the convective core boundary. 
+									
+									Furthermore, we know the microscopic diffusion in the form of atomic diffusion and raditive levitation occurs in stars, where the gravitational settling of helium reduces the chemical gradient, thus not helping to create a chemical gradient
+									which we deduce from the observed modes in some stars. The inclusion of microscopic diffusion is often neglected in stellar models for reasons of computation time. In this paper, we present a new routine to compute radiative levitation and 
+									consistent Rosseland mean opacities in the MESA code, yielding a speed-up of more than a factor 4. In addition, I have implemented a new routine to predict the chemical mixing induced by shear mixing, relying on 2D stellar structure models from the
+									<a href="https://github.com/ester-project/ester">ESTER</a> code to compute the predicted rotation profile. The combination of microscopic mixing and shear mixing does allow us to reproduce the observed magnitude of the chemcial gradient that is observed in 
+									some stars with realistic values for the diffusion coefficient. Moreover, we present the predicted evolution of the surface abundances, and show that the N/C and C/O abundance ratios correlate with stellar age. This means that these ratios can be used as 
+									additional constraints in the chemical mixing efficiency, when they can be measured with a high precision (less than 0.1 dex). 
+
+								</p>
+								<p>
+									You can find more details <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211114853M/abstract">here</a>.
+								</p>
+							</section>
+
 						</article>
 
+						
 				</div>
 			</section>
 
