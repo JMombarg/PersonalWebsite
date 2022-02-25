@@ -2186,7 +2186,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/cover_bg.png");
+		background: #CCE8F4 url("../../images/background.png");
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2280,7 +2280,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/cover_bg.png");
+		background: #f7f7f7 url("images/background.png");
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
