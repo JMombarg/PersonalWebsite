@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg.png");
+		background-image: url("../../images/background.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2280,7 +2280,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/background.png");
+		background: #f7f7f7 url("../../images/background.png");
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2294,7 +2294,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg.png");
+			background: url("../../images/background.png");
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -2304,7 +2304,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg.png");
+			background: #f7f7f7 url("../../images/background.png");
 		}
 
 /* Footer */
@@ -2322,7 +2322,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg.png");
+			background: url("../../images/background.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
