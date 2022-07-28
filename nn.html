@@ -27,7 +27,7 @@
 								<li><a href="research.html">Research</a></li>
 								<li><a href="about_me.html">About me</a></li>
 								<a href="cv.html">CV</a></li>
-								<li class="current"><a href="nn.html">CV</a></li>
+								<li class="current"><a href="nn.html">C-3PO</a></li>
 							</ul>
 						</nav>
 
@@ -50,10 +50,10 @@
 								and optionally also the luminosity, effective temperature, and surface gravity.
 
 								To run C-3PO, you need the keras-enviroment.yml and requirements.txt file, which can be downloaded <a href="https://github.com/JMombarg/c3po">here</a>. Then, run the following commands (make sure you have Conda installed first):
-								<code>conda env create -f keras-environment.yml
+								<pre><code>conda env create -f keras-environment.yml
 								conda activate keras-env
 								pip install -r ./requirements.txt
-							</code>
+							</code></pre>
 
 								You can then simply run <kbd>Model_star.py</kbd> once you have set all the correct paths in this file. The neural network modules are relatively large. If your system
 								cannot handle it, you can try to load only a few of the <kbd>C-3PO_Zext_npg15-91_P_*.h5</kbd> modules.
